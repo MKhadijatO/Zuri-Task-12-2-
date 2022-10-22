@@ -1,13 +1,9 @@
 const username = prompt ("Enter your name?"); 
 console.log(`Welcome ${username}`)
 
-
-
-
 let i = 2;
 
-
-for (; i < 6; i++){
+for (; i < 10; i++){
   let guess = parseInt(prompt (`Guess a number between 1 and ${i}`));
   console.log (`${username}, the number you guessed is ${guess}`)
   
