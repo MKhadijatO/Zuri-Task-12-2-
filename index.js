@@ -1,4 +1,4 @@
-const username = prompt ("Enter your name?"); 
+const username = prompt ("Enter your name"); 
 console.log(`Welcome ${username}`)
 
 let i = 2;
